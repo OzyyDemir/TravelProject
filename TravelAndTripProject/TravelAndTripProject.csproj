@@ -127,6 +127,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -154,6 +156,27 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="webBlog\about.html" />
+    <Content Include="webBlog\contact.html" />
+    <Content Include="webBlog\css\bootstrap.css" />
+    <Content Include="webBlog\css\style.css" />
+    <Content Include="webBlog\images\avatar.png" />
+    <Content Include="webBlog\images\food.jpg" />
+    <Content Include="webBlog\images\food2.jpg" />
+    <Content Include="webBlog\images\icon3.png" />
+    <Content Include="webBlog\images\logo.jpg" />
+    <Content Include="webBlog\images\man.jpg" />
+    <Content Include="webBlog\images\more.png" />
+    <Content Include="webBlog\images\post1.jpg" />
+    <Content Include="webBlog\images\post2.jpg" />
+    <Content Include="webBlog\images\post3.jpg" />
+    <Content Include="webBlog\images\search.png" />
+    <Content Include="webBlog\index.html" />
+    <Content Include="webBlog\js\easing.js" />
+    <Content Include="webBlog\js\jquery.min.js" />
+    <Content Include="webBlog\js\move-top.js" />
+    <Content Include="webBlog\single.html" />
+    <Content Include="webBlog\w3layouts-License.txt" />
     <Content Include="web\about.html" />
     <Content Include="web\contact.html" />
     <Content Include="web\css\slider.css" />
@@ -219,6 +242,8 @@
     <Content Include="Views\Shared\_TestLayout.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\About.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
