@@ -6,7 +6,7 @@
 
 #### Ana Sayfa
 
-![1](https://user-images.githubusercontent.com/74780105/135286708-d2f74ea1-3746-4bad-9477-f2f45a9c6cc3.PNG)
+![a](https://user-images.githubusercontent.com/74780105/135604541-ef8e936b-503a-4142-a63e-84d8eeef9079.PNG)
 
-![2](https://user-images.githubusercontent.com/74780105/135286821-bb223a9b-a9f8-4bca-b374-725430de08e2.PNG)
+![b](https://user-images.githubusercontent.com/74780105/135604579-fa59c22f-595c-4908-b524-3b8558b7356c.PNG)
 
