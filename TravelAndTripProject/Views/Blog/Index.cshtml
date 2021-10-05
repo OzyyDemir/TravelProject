@@ -38,11 +38,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-md-8 single-main">
                 @foreach (var item in Model.deger1)
                 {
-                    <div class="single-grid">
-                        <img src="@item.BlogImage" alt="" style="margin-bottom:20px" />
-                        <a href="/Blog/BlogDetay/@item.id">@item.Baslik</a>
-                        <p> @item.Aciklama </p>
-                    </div>
+                <div class="single-grid">
+                    <img src="@item.BlogImage" alt="" style="margin-bottom:20px" />
+                    <a href="/Blog/BlogDetay/@item.id">@item.Baslik</a>
+                    <p> @item.Aciklama.Substring(0, 250)... </p>
+                    <p><a href="/Blog/BlogDetay/@item.id"><span class="read">Read More >></span></a></p>
+                </div>
                     <br /> <br />
                 }
             </div>
